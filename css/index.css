@@ -1,0 +1,26 @@
+
+:root {
+    --body: #f6f6f6;
+    --font: #222;
+    --border: #333;
+    --border-hover: #444;
+    --screen: #eee;
+  }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+.btn {
+    padding: 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    background-color: var(--btn);
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+  }
+.btn:hover{
+    box-shadow: 0 0 2px var(--border-hover)
+}
+  
